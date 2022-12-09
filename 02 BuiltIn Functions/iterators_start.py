@@ -13,9 +13,14 @@ def main():
     # print(next(i))
 
     # TODO: iterate using a function and a sentinel
-    # with open("c:/MyDoc/Goal/FY23/LinkedInLearning/AdvancedPython/Ex_Files_Adv_Python/Exercise Files/02 BuiltIn Functions/testfile.txt", "r") as fp:
-    #     for line in iter(fp.readline, ''):
-    #         print(line)
+    with open("c:/MyDoc/Goal/FY23/LinkedInLearning/AdvancedPython/Ex_Files_Adv_Python/Exercise Files/02 BuiltIn Functions/testfile.txt", "r") as fp:
+        # for line in iter(fp.readline, ''):
+        #     print(line)
+        for x in fp:
+            print(x.strip())
+    
+    # f = open("c:/MyDoc/Goal/FY23/LinkedInLearning/AdvancedPython/Ex_Files_Adv_Python/Exercise Files/02 BuiltIn Functions/testfile.txt", "r")
+    # print(f.read())
 
     # TODO: use regular interation over the days
     # for m in range(len(days)):
@@ -26,8 +31,8 @@ def main():
     #     print(i, m)
 
     # TODO: use zip to combine sequences
-    for i,m in enumerate(zip(days, daysFr), start=1):
-        print(i, m[0], "=", m[1], "in French")
+    # for i,m in enumerate(zip(days, daysFr), start=1):
+    #     print(i, m[0], "=", m[1], "in French")
 
 if __name__ == "__main__":
     main()
