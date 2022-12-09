@@ -34,3 +34,4 @@ def main():
 if __name__ == "__main__":
     main()
     print('new test')
+    print('new test 2')
