@@ -30,7 +30,7 @@ def main():
 
     # TODO: test for equality
     a = OrderedDict({"a" : 1, "b" : 2, "c" : 3})
-    b = {"a" : 1, "c" : 3, "b" : 2}
+    b = OrderedDict({"a" : 1, "c" : 3, "b" : 2})
     print("Equality test:", a == b)
 
 
