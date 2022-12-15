@@ -14,7 +14,7 @@ class Person():
         )
 
     # TODO: use str for a more human-readable string
-    def __str__(self) -> str:
+    def __str__(self):
         return "Person ({0} {1} is {2})".format(
             self.fname, self.lname, self.age
         )
